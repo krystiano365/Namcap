@@ -30,7 +30,8 @@ SOURCES += \
 
 HEADERS += \
         mywidget.h \
-    consts.h
+    consts.h \
+    auxfunc.h
 
 FORMS += \
         mywidget.ui
@@ -40,5 +41,6 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-DISTFILES += \
-    map
+
+
+
